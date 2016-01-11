@@ -4,12 +4,14 @@
 
 [csgo]: http://store.steampowered.com/app/730/
 
-## Play LAN
+## Activate the console
 
-First activate the console by adding `-console` in the game launch
-options in Steam (right click the game, properties, launch options).
+Add `-console` in the game launch options in Steam (right click the
+game, properties, launch options).
 
-### Host a server
+You'll need this for playing LAN.
+
+## Host a server
 
 Get your thunderbolt ethernet IP using:
 
@@ -28,7 +30,7 @@ ip YOUR_IP
 map MAP_NAME
 ```
 
-### Join a server
+## Join a server
 
 Once someone's hosting, in the game console, type:
 
@@ -45,4 +47,5 @@ game_mode 0
 game_type 1
 ```
 
-Then change map for the change to take effect.
+Then change map for the change to take effect. Maps beginning with `ar_`
+are best suited for arms race.
