@@ -1,6 +1,8 @@
 # Busbud Counter-Strike
 
-> [Counter-Strike: Global Offensive][csgo] documentation for Busbud LAN.
+> A guide to setting up a successful Counter-Strike LAN party.
+>
+> Tailored for [Global Offensive][csgo] on OS X.
 
 [csgo]: http://store.steampowered.com/app/730/
 
