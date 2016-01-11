@@ -40,7 +40,9 @@ Once someone's hosting, in the game console, type:
 connect HOST_IP
 ```
 
-## Arms race
+## Game modes
+
+### Arms race
 
 To play an arms race, in the server console, type:
 
