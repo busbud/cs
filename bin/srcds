@@ -1,0 +1,9 @@
+#!/bin/sh -e
+
+cd "$(dirname "$0")/.."
+
+if [ ! -d csgo ]; then
+    steamcmd +login anonymous +force_install_dir csgo +app_update 740 +quit
+fi
+
+exec csgo/srcds_run "$@"

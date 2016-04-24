@@ -1,0 +1,11 @@
+csgo:
+    container_name: csgo
+    image: steamcmd
+    command: csgo +game_type 1 +game_mode 0 +mapgroup mg_armsrace +map ar_shoots
+    restart: always
+    ports:
+        - 27015:27015
+        - 27015:27015/udp
+    volumes:
+        - .:/home/steam
+        - ../bin:/home/steam/bin

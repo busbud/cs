@@ -1,0 +1,12 @@
+#!/bin/sh -e
+
+cd "$(dirname "$0")/.."
+
+if [ ! -d steamcmd ]; then
+    mkdir steamcmd
+    cd steamcmd
+    curl --insecure https://steamcdn-a.akamaihd.net/client/installer/steamcmd_linux.tar.gz | tar xz
+fi
+
+cd steamcmd
+exec ./steamcmd.sh "$@"

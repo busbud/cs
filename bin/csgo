@@ -1,0 +1,3 @@
+#!/bin/sh -e
+
+exec srcds -game csgo -console -usercon "$@"
