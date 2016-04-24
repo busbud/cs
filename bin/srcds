@@ -1,0 +1,9 @@
+#!/bin/sh -e
+
+cd "$(dirname "$0")/.."
+
+if [ ! -d csgo ]; then
+    csgo-update
+fi
+
+exec csgo/srcds_run "$@"
