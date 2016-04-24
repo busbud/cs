@@ -3,6 +3,8 @@
 * Dockerfile for [SteamCMD][steamcmd] friendly environment.
 * Compose file to start the server.
 
+[steamcmd]: https://developer.valvesoftware.com/wiki/SteamCMD
+
 ## Usage
 
 ```sh
