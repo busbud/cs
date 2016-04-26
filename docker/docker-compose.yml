@@ -7,5 +7,5 @@ csgo:
         - 27015:27015
         - 27015:27015/udp
     volumes:
-        - .:/home/steam
+        - ../steam:/home/steam
         - ../bin:/home/steam/bin
