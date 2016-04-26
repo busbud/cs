@@ -10,4 +10,4 @@ exec docker run \
     -v "$PWD/steam:/home/steam" \
     -v "$PWD/bin:/home/steam/bin" \
     steamcmd \
-    csgo +game_type 1 +game_mode 0 +mapgroup mg_armsrace +map ar_shoots
+    "$@"
