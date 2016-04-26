@@ -7,7 +7,7 @@ exec docker run \
     --name csgo \
     -p 27015:27015 \
     -p 27015:27015/udp \
-    -v "$PWD/../steam:/home/steam" \
-    -v "$PWD/../bin:/home/steam/bin" \
+    -v "$PWD/steam:/home/steam" \
+    -v "$PWD/bin:/home/steam/bin" \
     steamcmd \
     csgo +game_type 1 +game_mode 0 +mapgroup mg_armsrace +map ar_shoots
