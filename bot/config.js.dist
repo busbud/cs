@@ -1,0 +1,13 @@
+const Flowdock = require('stdbot-flowdock')
+const room = 'main'
+
+module.exports = {
+  room,
+  adapter: Flowdock({
+    token: 'token',
+    flows: [room]
+  }),
+  updateCommand: ['script', '-c', `${__dirname}/../docker/run csgo-update`, '/dev/null'],
+  runCommand: [`${__dirname}/../docker/run`, 'csgo', '+game_type', '1', '+game_mode', '0', '+mapgroup', 'mg_armsrace', '+map', 'ar_shoots'],
+  interface: 'enp2s0'
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Busbud Counter-Strike assistant.",
+  "homepage": "https://github.com/busbud/cs/bot",
+  "bugs": "https://github.com/busbud/cs/issues",
+  "license": "MIT",
+  "author": {
+    "name": "Busbud",
+    "url": "https://www.busbud.com/"
+  },
+  "repository": "busbud/cs",
+  "scripts": {
+    "lint": "standard"
+  },
+  "dependencies": {
+    "feedparser": "^1.1.4",
+    "filesize": "^3.3.0",
+    "moment": "^2.13.0",
+    "request": "^2.72.0",
+    "rx-node": "^1.0.2",
+    "stdbot": "stdbot/stdbot"
+  },
+  "devDependencies": {
+    "standard": "^5.4.1"
+  }
+}
