@@ -1,3 +1,5 @@
 #!/bin/sh -e
 
-steamcmd +login anonymous +force_install_dir csgo +app_update 740 +quit
+cd "$(dirname "$0")/.."
+
+steamcmd +login anonymous +force_install_dir "$PWD/csgo" +app_update 740 +quit
